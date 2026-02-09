@@ -54,5 +54,14 @@
     "links": [
       { "label": "Demo", "href": "https://www.youtube.com/watch?v=i9pCc5R95Fc" }
     ]
+  },
+  {
+    "title": "Indoor Architecture Rendering",
+    "description": "Implemented indoor rendering with Blinn–Phong shading, normal mapping, bloom effect, and real-time light shadows.",
+    "tags": ["C++", "OpenGL"],
+    "youtube": "z9hQzjh4AA8",
+    "links": [
+      { "label": "Demo", "href": "https://www.youtube.com/watch?v=z9hQzjh4AA8" }
+    ]
   }
 ]
