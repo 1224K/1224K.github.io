@@ -192,10 +192,7 @@
         
         if (p.youtube) {
           thumbnail = `<div class="project-thumbnail">
-            <a href="${thumbnailLink}" target="_blank" rel="noreferrer">
-              <img src="https://img.youtube.com/vi/${p.youtube}/0.jpg" alt="${p.title}" />
-              <div class="play-icon">▶</div>
-            </a>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${p.youtube}?autoplay=1&mute=1&loop=1&playlist=${p.youtube}" title="${p.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>`;
         } else if (p.image) {
           thumbnail = `<div class="project-thumbnail">
