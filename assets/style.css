@@ -71,3 +71,11 @@ h3{margin:0;font-size:16px}
 .small-note{color:var(--muted);font-size:13px;margin-top:8px}
 
 .footer{padding:28px 0;color:var(--muted);font-size:13px}
+
+.experience-list{display:flex;flex-direction:column;gap:14px}
+.exp-item{background:rgba(18,24,38,.72);border:1px solid var(--line);border-radius:18px;padding:16px}
+.exp-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.exp-header h3{margin:0;color:var(--accent);font-size:16px}
+.exp-date{color:var(--muted);font-size:13px;white-space:nowrap}
+.exp-role{margin:0 0 4px;color:var(--text);font-size:14px;font-weight:600}
+.exp-org{margin:0 0 8px;color:var(--muted);font-size:13px}
