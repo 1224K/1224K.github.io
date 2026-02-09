@@ -6,7 +6,7 @@
     "highlights": [
       "Evaluated on 4 environments and 10 tasks (+90% gain over prior methods)."
     ],
-    "image": "https://via.placeholder.com/400x225?text=VLM-R3L",
+    "image": "assets/VLM-R3L.gif",
     "links": [
       { "label": "Paper", "href": "https://drive.google.com/file/d/1U1Cr67je6u0ceiHBbnSID-Uo5_pLDG9Y/view?usp=sharing" }
     ]
@@ -26,7 +26,7 @@
     "tags": ["RL", "Unity", "C#"],
     "youtube": "46O14GhAa98",
     "links": [
-      { "label": "Paper", "href": "https://drive.google.com/file/d/1BV07M-wBJpEY0OK3Nj6fMC1Vm0m0lQVP/view?usp=drive_link" }
+      { "label": "More", "href": "https://drive.google.com/file/d/1BV07M-wBJpEY0OK3Nj6fMC1Vm0m0lQVP/view?usp=drive_link" }
     ]
   },
   {
@@ -48,7 +48,7 @@
     "highlights": [
       "Third Place and Popularity Award in “Logic Design Laboratory” (43 teams)."
     ],    "youtube": "pZAk7xJDxlE",    "links": [
-      { "label": "Demo", "href": "https://youtu.be/pZAk7xJDxlE" }
+      { "label": "More", "href": "https://drive.google.com/file/d/1FQvOc-U0vZG32FbxWHr1-3g6ahsbSsxN/view?usp=drive_link" }
     ]
   },
   {
@@ -57,16 +57,13 @@
     "tags": ["Embedded", "C", "Python"],
     "youtube": "i9pCc5R95Fc",
     "links": [
-      { "label": "Demo", "href": "https://www.youtube.com/watch?v=i9pCc5R95Fc" }
+      { "label": "More", "href": "https://docs.google.com/presentation/d/1gGxTKynd4sWPv4FFOSZnNv3HmPC55DfM" }
     ]
   },
   {
     "title": "Indoor Architecture Rendering",
     "description": "Implemented indoor rendering with Blinn–Phong shading, normal mapping, bloom effect, and real-time light shadows.",
     "tags": ["C++", "OpenGL"],
-    "youtube": "z9hQzjh4AA8",
-    "links": [
-      { "label": "Demo", "href": "https://www.youtube.com/watch?v=z9hQzjh4AA8" }
-    ]
+    "youtube": "z9hQzjh4AA8"
   }
 ]
