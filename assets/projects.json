@@ -12,15 +12,20 @@
     ]
   },
   {
-    "title": "The Puppet / Puppet AI",
-    "description": "2D action/adventure/puzzle game with an RL agent trained for in-game puzzles and parkour challenges.",
-    "tags": ["Unity", "C#", "RL"],
+    "title": "The Puppet",
+    "description": "2D action, adventure, and puzzle game designed and developed in Unity.",
+    "tags": ["Unity", "C#", "Game Dev"],
     "highlights": [
       "Best Visual Design Award (Honorable Mention) in 2023 Creative Game Design Competition."
     ],
-    "youtube": "SpbQkwjrZYc",
+    "youtube": "SpbQkwjrZYc"
+  },
+  {
+    "title": "Puppet AI",
+    "description": "Trained an RL agent in The Puppet game to solve puzzles and complete parkour-style challenges.",
+    "tags": ["RL", "Unity", "C#"],
+    "youtube": "46O14GhAa98",
     "links": [
-      { "label": "Demo", "href": "https://youtu.be/SpbQkwjrZYc" },
       { "label": "Paper", "href": "https://drive.google.com/file/d/1BV07M-wBJpEY0OK3Nj6fMC1Vm0m0lQVP/view?usp=drive_link" }
     ]
   },
@@ -33,7 +38,7 @@
     ],
     "youtube": "I-cSSbIxxKY",
     "links": [
-      { "label": "Demo", "href": "https://www.youtube.com/watch?v=I-cSSbIxxKY" }
+      { "label": "More", "href": "https://intoxicat-studio.itch.io/you-ken-do-it" }
     ]
   },
   {
