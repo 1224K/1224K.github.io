@@ -6,6 +6,7 @@
     "highlights": [
       "Evaluated on 4 environments and 10 tasks (+90% gain over prior methods)."
     ],
+    "image": "https://via.placeholder.com/400x225?text=VLM-R3L",
     "links": [
       { "label": "Paper", "href": "https://drive.google.com/file/d/1U1Cr67je6u0ceiHBbnSID-Uo5_pLDG9Y/view?usp=sharing" }
     ]
@@ -17,6 +18,7 @@
     "highlights": [
       "Best Visual Design Award (Honorable Mention) in 2023 Creative Game Design Competition."
     ],
+    "youtube": "SpbQkwjrZYc",
     "links": [
       { "label": "Demo", "href": "https://youtu.be/SpbQkwjrZYc" },
       { "label": "Paper", "href": "https://drive.google.com/file/d/1BV07M-wBJpEY0OK3Nj6fMC1Vm0m0lQVP/view?usp=drive_link" }
@@ -29,6 +31,7 @@
     "highlights": [
       "Honorable Mention in the League of VR Courses Final Exhibition (3 universities)."
     ],
+    "image": "https://via.placeholder.com/400x225?text=You+Ken-Do+It",
     "links": [
       { "label": "Demo", "href": "https://intoxicat-studio.itch.io/you-ken-do-it" }
     ]
@@ -39,8 +42,7 @@
     "tags": ["FPGA", "Verilog", "Embedded"],
     "highlights": [
       "Third Place and Popularity Award in “Logic Design Laboratory” (43 teams)."
-    ],
-    "links": [
+    ],    "youtube": "pZAk7xJDxlE",    "links": [
       { "label": "Demo", "href": "https://youtu.be/pZAk7xJDxlE" }
     ]
   },
@@ -48,6 +50,7 @@
     "title": "Room Mapper",
     "description": "Embedded autonomous robot car for indoor mapping and visualization.",
     "tags": ["Embedded", "C", "Python"],
+    "youtube": "i9pCc5R95Fc",
     "links": [
       { "label": "Demo", "href": "https://www.youtube.com/watch?v=i9pCc5R95Fc" }
     ]
