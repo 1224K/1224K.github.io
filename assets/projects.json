@@ -1,0 +1,55 @@
+[
+  {
+    "title": "VLM-R3L",
+    "description": "Vision-Language Models for automated RL reward generation across tasks and environments.",
+    "tags": ["RL", "VLM", "PyTorch"],
+    "highlights": [
+      "Evaluated on 4 environments and 10 tasks (+90% gain over prior methods)."
+    ],
+    "links": [
+      { "label": "Paper", "href": "https://drive.google.com/file/d/1U1Cr67je6u0ceiHBbnSID-Uo5_pLDG9Y/view?usp=sharing" }
+    ]
+  },
+  {
+    "title": "The Puppet / Puppet AI",
+    "description": "2D action/adventure/puzzle game with an RL agent trained for in-game puzzles and parkour challenges.",
+    "tags": ["Unity", "C#", "RL"],
+    "highlights": [
+      "Best Visual Design Award (Honorable Mention) in 2023 Creative Game Design Competition."
+    ],
+    "links": [
+      { "label": "Demo", "href": "https://youtu.be/SpbQkwjrZYc" },
+      { "label": "Paper", "href": "https://drive.google.com/file/d/1BV07M-wBJpEY0OK3Nj6fMC1Vm0m0lQVP/view?usp=drive_link" }
+    ]
+  },
+  {
+    "title": "You Ken-Do It",
+    "description": "VR kendo training game emphasizing realistic combat and counter mechanics.",
+    "tags": ["VR", "Unity", "C#"],
+    "highlights": [
+      "Honorable Mention in the League of VR Courses Final Exhibition (3 universities)."
+    ],
+    "links": [
+      { "label": "Demo", "href": "https://intoxicat-studio.itch.io/you-ken-do-it" }
+    ]
+  },
+  {
+    "title": "Musical Interactive LED Cube (FPGA)",
+    "description": "FPGA LED cube with real-time visuals that react to sound.",
+    "tags": ["FPGA", "Verilog", "Embedded"],
+    "highlights": [
+      "Third Place and Popularity Award in “Logic Design Laboratory” (43 teams)."
+    ],
+    "links": [
+      { "label": "Demo", "href": "https://youtu.be/pZAk7xJDxlE" }
+    ]
+  },
+  {
+    "title": "Room Mapper",
+    "description": "Embedded autonomous robot car for indoor mapping and visualization.",
+    "tags": ["Embedded", "C", "Python"],
+    "links": [
+      { "label": "Demo", "href": "https://www.youtube.com/watch?v=i9pCc5R95Fc" }
+    ]
+  }
+]

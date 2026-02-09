@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kuan-Chen Chen | Portfolio</title>
+  <meta name="description" content="Kuan-Chen Chen — Portfolio (RL, VLM, Unity, Systems)" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Kuan-Chen Chen</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Hi, I’m <span class="accent">Kuan-Chen Chen</span>.</h1>
+          <p class="lead">
+            I build RL + Vision-Language systems and interactive experiences (Unity/VR),
+            with a focus on automation and performance.
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="mailto:kenchen901224@gmail.com">Email Me</a>
+            <a class="btn" href="https://github.com/1224K" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <div class="meta">
+            <span>📍 Hsinchu, Taiwan</span>
+            <span>•</span>
+            <span>RL • VLM • Unity • Systems</span>
+          </div>
+        </div>
+
+        <div class="card hero-card">
+          <h2>Highlights</h2>
+          <ul>
+            <li><b>VLM-R3L</b>: VLM-generated RL rewards; +90% gain (4 envs, 10 tasks)</li>
+            <li><b>NEUCHIPS</b>: DLRM inference optimization; <b>84×</b> speedup on 28 CPU cores</li>
+            <li><b>Unity/VR</b>: VR kendo training game; Honorable Mention (3 universities)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I’m a CS M.S. student at National Tsing Hua University. My interests include
+          reinforcement learning, vision-language models, and simulation/interactive systems.
+          I enjoy turning research prototypes into working demos.
+        </p>
+
+        <div class="chips">
+          <span class="chip">PyTorch</span>
+          <span class="chip">TensorFlow</span>
+          <span class="chip">Hugging Face</span>
+          <span class="chip">Unity</span>
+          <span class="chip">C/C++</span>
+          <span class="chip">C#</span>
+          <span class="chip">CUDA</span>
+          <span class="chip">OpenMP</span>
+          <span class="chip">Isaac Sim</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="row">
+          <h2>Projects</h2>
+          <div class="hint">Edit <code>assets/projects.json</code> to update cards.</div>
+        </div>
+        <div id="project-grid" class="grid"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <h2>Publications</h2>
+        <div class="card">
+          <div class="pub">
+            <div class="pub-title">VLM-R3L</div>
+            <div class="pub-meta">RL • Vision-Language Models</div>
+            <div class="pub-links">
+              <a class="link" href="https://drive.google.com/file/d/1U1Cr67je6u0ceiHBbnSID-Uo5_pLDG9Y/view?usp=sharing" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </div>
+        </div>
+        <p class="small-note">Add more publications here if needed.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="card">
+          <p class="contact-line">
+            Email: <a class="link" href="mailto:kenchen901224@gmail.com">kenchen901224@gmail.com</a>
+          </p>
+          <p class="contact-line">
+            GitHub: <a class="link" href="https://github.com/1224K" target="_blank" rel="noreferrer">github.com/1224K</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <span>© <span id="y"></span> Kuan-Chen Chen</span>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    async function loadProjects() {
+      const res = await fetch("assets/projects.json");
+      const items = await res.json();
+      const grid = document.getElementById("project-grid");
+
+      grid.innerHTML = items.map(p => `
+        <article class="card project">
+          <div class="project-top">
+            <h3>${p.title}</h3>
+            <div class="tags">${(p.tags || []).map(t => `<span class="tag">${t}</span>`).join("")}</div>
+          </div>
+          <p class="desc">${p.description}</p>
+          ${p.highlights?.length ? `<ul class="bullets">${p.highlights.map(x => `<li>${x}</li>`).join("")}</ul>` : ""}
+          <div class="links">
+            ${(p.links || []).map(l => `<a class="link" href="${l.href}" target="_blank" rel="noreferrer">${l.label}</a>`).join("")}
+          </div>
+        </article>
+      `).join("");
+    }
+    loadProjects();
+  </script>
+</body>
+</html>
