@@ -58,7 +58,7 @@ h3{margin:0;font-size:16px}
 .tag{border:1px solid var(--line);color:var(--muted);padding:4px 8px;border-radius:999px;font-size:11px}
 
 .desc{color:var(--muted);margin:10px 0;font-size:12px}
-.bullets{margin:0 0 10px 0;color:var(--muted);list-style:none;padding-left:0;margin-left:0}
+.bullets{margin:0 0 10px 0;color:var(--muted);list-style:none;padding-left:0;margin-left:0;font-size:13px}
 .bullets, .bullets li{list-style:none}
 .bullets li{margin:0 0 6px 0;color:var(--muted);font-size:12px;padding-left:0}
 .bullets li::marker{display:none}
