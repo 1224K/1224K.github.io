@@ -9,15 +9,6 @@
     ]
   },
   {
-    "title": "The Puppet",
-    "description": "2D action, adventure, and puzzle game designed and developed in Unity.",
-    "tags": ["Unity", "C#", "Game Dev"],
-    "highlights": [
-      "Best Visual Design Award (Honorable Mention) in 2023 Creative Game Design Competition."
-    ],
-    "youtube": "SpbQkwjrZYc"
-  },
-  {
     "title": "Puppet AI",
     "description": "Trained an RL agent in The Puppet game to solve puzzles and complete parkour-style challenges.",
     "tags": ["RL", "Unity", "C#"],
@@ -25,6 +16,15 @@
     "links": [
       { "label": "More", "href": "https://drive.google.com/file/d/1BV07M-wBJpEY0OK3Nj6fMC1Vm0m0lQVP/view?usp=drive_link" }
     ]
+  },
+  {
+    "title": "The Puppet",
+    "description": "2D action, adventure, and puzzle game designed and developed in Unity.",
+    "tags": ["Unity", "C#", "Game Dev"],
+    "highlights": [
+      "Best Visual Design Award (Honorable Mention) in 2023 Creative Game Design Competition."
+    ],
+    "youtube": "SpbQkwjrZYc"
   },
   {
     "title": "You Ken-Do It",
