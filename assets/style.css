@@ -32,7 +32,8 @@ h3{margin:0;font-size:16px}
 .accent{color:var(--accent)}
 .lead{color:var(--muted);font-size:16px;line-height:1.6;margin:0 0 16px}
 
-  .about-content{display:grid;grid-template-columns:1fr 5fr;gap:32px;align-items:center}
+  .about-content{display:grid;grid-template-columns:1fr 5fr;column-gap:32px;
+    row-gap:10px;align-items:center}
   @media (max-width:860px){.about-content{grid-template-columns:1fr}}
   .about-avatar{display:flex;justify-content:center;align-items:center}
   .avatar{width:160px;height:160px;border-radius:16px;border:2px solid var(--line);object-fit:cover}
