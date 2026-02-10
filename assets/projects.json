@@ -6,7 +6,7 @@
     "highlights": [
       "Evaluated on 4 environments and 10 tasks (+90% gain over prior methods)."
     ],
-    "image": "assets/VLM-R3L.gif",
+    "image": "assets/images/VLM-R3L.gif",
     "links": [
       { "label": "Paper", "href": "https://drive.google.com/file/d/1U1Cr67je6u0ceiHBbnSID-Uo5_pLDG9Y/view?usp=sharing" }
     ]
