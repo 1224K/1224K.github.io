@@ -41,7 +41,7 @@
   {
     "title": "Musical Interactive LED Cube (FPGA)",
     "description": "FPGA LED cube with real-time visuals that react to sound.",
-    "tags": ["FPGA", "Verilog", "Embedded"],
+    "tags": ["Embedded", "Verilog", "FPGA"],
     "highlights": [
       "Third Place and Popularity Award in “Logic Design Laboratory” (43 teams)."
     ],    "youtube": "pZAk7xJDxlE",    "links": [
@@ -51,7 +51,7 @@
   {
     "title": "Room Mapper",
     "description": "Embedded autonomous robot car for indoor mapping and visualization.",
-    "tags": ["Embedded", "C", "Python"],
+    "tags": ["Embedded", "C", "Python", "Raspberry Pi", "Arduino Uno"],
     "youtube": "i9pCc5R95Fc",
     "links": [
       { "label": "More", "href": "https://docs.google.com/presentation/d/1gGxTKynd4sWPv4FFOSZnNv3HmPC55DfM" }
