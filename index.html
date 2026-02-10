@@ -83,7 +83,7 @@
                 <img class="exp-logo" src="assets/images/NTHU.png" alt="NTHU logo" />
                 <div class="exp-meta">
                   <div class="exp-company">National Tsing Hua University</div>
-                  <div class="exp-position">Teaching Assistant, Prof. Min-Chun Hu</div>
+                  <div class="exp-position">Robotic Navigation and Exploration Teaching Assistant, Prof. Min-Chun Hu</div>
                 </div>
               </div>
               <span class="exp-date">Jan 2025 – Jun 2025</span>
@@ -99,7 +99,7 @@
                 <img class="exp-logo" src="assets/images/NTHU.png" alt="NTHU logo" />
                 <div class="exp-meta">
                   <div class="exp-company">National Tsing Hua University</div>
-                  <div class="exp-position">Teaching Assistant, Prof. Min-Chun Hu</div>
+                  <div class="exp-position">Virtual Reality Teaching Assistant, Prof. Min-Chun Hu</div>
                 </div>
               </div>
               <span class="exp-date">Jan 2024 – Jun 2024</span>
@@ -115,7 +115,7 @@
                 <img class="exp-logo" src="assets/images/NTHU.png" alt="NTHU logo" />
                 <div class="exp-meta">
                   <div class="exp-company">National Tsing Hua University</div>
-                  <div class="exp-position">Teaching Assistant, Prof. Hung-Kuo Chu</div>
+                  <div class="exp-position">Introduction to Game Programming Teaching Assistant, Prof. Hung-Kuo Chu</div>
                 </div>
               </div>
               <span class="exp-date">Sep 2023 – Jan 2024</span>
@@ -148,7 +148,7 @@
                 <img class="exp-logo" src="assets/images/NTHU.png" alt="NTHU logo" />
                 <div class="exp-meta">
                   <div class="exp-company">National Tsing Hua University</div>
-                  <div class="exp-position">Teaching Assistant, Prof. Shun-Ren Yang</div>
+                  <div class="exp-position">Introduction to Programming I&II Teaching Assistant, Prof. Shun-Ren Yang</div>
                 </div>
               </div>
               <span class="exp-date">Sep 2021 – Jun 2022</span>
@@ -175,24 +175,6 @@
           </div>
         </div>
         <!-- <p class="small-note">Add more publications here if needed.</p> -->
-      </div>
-            <div class="exp-header">
-              <div class="exp-left">
-                <img class="exp-logo" src="assets/images/NTHU.png" alt="NTHU logo" />
-                <div class="exp-meta">
-                  <div class="exp-company">National Tsing Hua University</div>
-                  <div class="exp-role">Teaching Assistant, Prof. Min-Chun Hu</div>
-                </div>
-              </div>
-              <span class="exp-date">Jan 2025 – Jun 2025</span>
-            </div>
-            <ul class="bullets">
-              <li>Guided 300+ students through an RL-based robotic navigation project.</li>
-            </ul>
-          </div>
-          </p>
-        </div>
-      </div>
     </section>
 
     <footer class="footer">
@@ -226,8 +208,7 @@
           </div>`;
         }
         
-        // place "More" and "Paper" links inline in the description (no line breaks), keep other links at the bottom
-        const inlineLabels = ['more', 'paper'];
+        const inlineLabels = ['more'];
         const moreLinks = (p.links || []).filter(l => inlineLabels.includes((l.label || '').toLowerCase()));
         const otherLinks = (p.links || []).filter(l => !inlineLabels.includes((l.label || '').toLowerCase()));
         const descInlineMore = `${p.description}${moreLinks.length ? ' ' + moreLinks.map(l => `<a class="link" href="${l.href}" target="_blank" rel="noreferrer">${l.label}</a>`).join(' ') : ''}`;
