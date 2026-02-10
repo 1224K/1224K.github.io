@@ -60,8 +60,9 @@ h3{margin:0;font-size:16px}
 .desc{color:var(--muted);margin:10px 0}
 .bullets{margin:0 0 10px 18px;color:var(--muted)}
 
-.highlights{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
-.highlight-badge{display:inline-block;background:rgba(91,163,238,.15);border:1px solid rgba(91,163,238,.3);color:var(--accent);padding:5px 10px;border-radius:8px;font-size:12px;line-height:1.4}
+.highlights{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.highlight-badge{display:inline-block;background:linear-gradient(135deg,rgba(91,163,238,.2),rgba(91,163,238,.08));border:1px solid rgba(91,163,238,.4);color:var(--accent);padding:6px 12px;border-radius:6px;font-size:12px;line-height:1.5;font-weight:500;transition:all .2s ease;cursor:default}
+.highlight-badge:hover{background:linear-gradient(135deg,rgba(91,163,238,.3),rgba(91,163,238,.15));border-color:rgba(91,163,238,.6);transform:translateY(-1px)}
 .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
 .link{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 
