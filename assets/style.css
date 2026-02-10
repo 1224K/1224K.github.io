@@ -32,11 +32,14 @@ h3{margin:0;font-size:16px}
 .accent{color:var(--accent)}
 .lead{color:var(--muted);font-size:16px;line-height:1.6;margin:0 0 16px}
 
-  .about-content{display:grid;grid-template-columns:1fr 5fr;gap:32px;align-items:start}
+  .about-content{display:grid;grid-template-columns:1fr 5fr;gap:32px;align-items:center}
   @media (max-width:860px){.about-content{grid-template-columns:1fr}}
-  .about-avatar{display:flex;justify-content:center;align-items:flex-start}
+  .about-avatar{display:flex;justify-content:center;align-items:center}
   .avatar{width:160px;height:160px;border-radius:16px;border:2px solid var(--line);object-fit:cover}
   @media (max-width:860px){.avatar{width:140px;height:140px}}
+  .about-wide{
+    grid-column:1 / -1;
+  }
 
 .cta{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 10px}
 .btn{border:1px solid var(--line);padding:10px 12px;border-radius:12px;color:var(--text);background:transparent}
