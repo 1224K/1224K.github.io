@@ -83,9 +83,9 @@ h3{margin:0;font-size:16px}
 
 .experience-list{display:flex;flex-direction:column;gap:14px}
 .exp-item{background:rgba(18,24,38,.72);border:1px solid var(--line);border-radius:18px;padding:16px}
-.exp-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.exp-header{position:relative;display:flex;flex-direction:column;gap:12px;margin-bottom:8px}
 .exp-header h3{margin:0;color:var(--accent);font-size:16px}
-.exp-date{color:var(--muted);font-size:13px;white-space:nowrap}
+.exp-date{position:absolute;top:0;right:0;color:var(--muted);font-size:13px;white-space:nowrap}
 .exp-role{margin:0 0 4px;color:var(--text);font-size:14px;font-weight:600}
 .exp-org{margin:0 0 8px;color:var(--muted);font-size:13px}
 
@@ -94,7 +94,7 @@ h3{margin:0;font-size:16px}
 
 .exp-left{display:flex;align-items:flex-start;gap:12px}
 .exp-meta{display:flex;flex-direction:column}
-.exp-company{font-weight:600;color:var(--text);font-size:13px}
+.exp-company{font-weight:600;color:var(--text);font-size:15px}
 .exp-position{color:var(--muted);font-size:13px;margin-top:4px}
 
 .project-thumbnail{position:relative;width:100%;padding-bottom:56.25%;margin-bottom:12px;overflow:hidden;border-radius:12px;background:rgba(0,0,0,.3)}
