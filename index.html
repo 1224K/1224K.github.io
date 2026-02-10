@@ -226,6 +226,12 @@
           </div>`;
         }
         
+        // place "More" and "Paper" links inline in the description (no line breaks), keep other links at the bottom
+        const inlineLabels = ['more', 'paper'];
+        const moreLinks = (p.links || []).filter(l => inlineLabels.includes((l.label || '').toLowerCase()));
+        const otherLinks = (p.links || []).filter(l => !inlineLabels.includes((l.label || '').toLowerCase()));
+        const descInlineMore = `${p.description}${moreLinks.length ? ' ' + moreLinks.map(l => `<a class="link" href="${l.href}" target="_blank" rel="noreferrer">${l.label}</a>`).join(' ') : ''}`;
+
         return `
           <article class="card project">
             ${thumbnail}
@@ -233,10 +239,10 @@
               <h3>${p.title}</h3>
               <div class="tags">${(p.tags || []).map(t => `<span class="tag">${t}</span>`).join("")}</div>
             </div>
-            <p class="desc">${p.description}</p>
+            <p class="desc">${descInlineMore}</p>
             ${p.highlights?.length ? `<div class="highlights">${p.highlights.map(x => `<span class="highlight-badge">${x}</span>`).join("")}</div>` : ""}
             <div class="links">
-              ${(p.links || []).map(l => `<a class="link" href="${l.href}" target="_blank" rel="noreferrer">${l.label}</a>`).join("")}
+              ${otherLinks.map(l => `<a class="link" href="${l.href}" target="_blank" rel="noreferrer">${l.label}</a>`).join("")}
             </div>
           </article>
         `;
