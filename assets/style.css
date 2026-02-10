@@ -105,3 +105,8 @@ h3{margin:0;font-size:16px}
 .project-thumbnail a:hover img{transform:scale(1.05)}
 .play-icon{position:absolute;font-size:48px;color:#fff;text-shadow:0 0 10px rgba(0,0,0,.8);z-index:2;pointer-events:none;transition:transform .3s ease}
 .project-thumbnail a:hover .play-icon{transform:scale(1.2)}
+
+@media (max-width:640px){
+  .exp-header{flex-direction:column}
+  .exp-date{position:static;margin-bottom:8px}
+}
