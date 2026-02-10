@@ -19,7 +19,7 @@
   },
   {
     "title": "The Puppet",
-    "description": "A 2D action-adventure puzzle game developed in Unity, featuring a position-swapping mechanic that enables creative combat, traversal, and puzzle-solving.",
+    "description": "A 2D action-adventure puzzle game developed in Unity with a position-swapping mechanic.",
     "tags": ["Unity", "C#", "Game Dev"],
     "highlights": [
       "Best Visual Design Award (Honorable Mention) in 2023 Creative Game Design Competition."
