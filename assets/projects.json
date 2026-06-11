@@ -3,6 +3,10 @@
     "title": "VLM-AR3L",
     "description": "Vision-Language Models for automated RL reward generation across tasks and environments.",
     "tags": ["RL", "VLM", "PyTorch"],
+    "highlights": [
+      "IJCAI 2026"
+    ],
+    "highlightsAlign": "right",
     "image": "assets/images/VLM-R3L.gif",
     "links": [
       { "label": "More", "href": "https://vlm-ar3l.github.io/" }
@@ -64,9 +68,10 @@
     "youtube": "z9hQzjh4AA8"
   },
   {
-    "title": "Yang-109II - HackMD",
-    "description": "Documentation and project notes for Yang-109II, hosted on HackMD.",
-    "tags": ["Docs", "HackMD"],
+    "title": "HackMD - Yang 109 I&II",
+    "description": "Solutions for Yang-109I and Yang-109II, hosted on HackMD.",
+    "tags": ["C++", "HackMD"],
+    "image": "assets/images/hackmd.png",
     "links": [
       { "label": "More", "href": "https://hackmd.io/@24K/Yang-109II" }
     ]
