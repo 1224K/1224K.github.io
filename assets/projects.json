@@ -4,7 +4,7 @@
     "description": "Vision-Language Models for automated RL reward generation across tasks and environments.",
     "tags": ["RL", "VLM", "PyTorch"],
     "highlights": [
-      "IJCAI 2026"
+      "<a href=\"https://2026.ijcai.org/\" target=\"_blank\" rel=\"noreferrer\">Paper accepted to IJCAI 2026!</a>"
     ],
     "highlightsAlign": "right",
     "image": "assets/images/VLM-R3L.gif",
