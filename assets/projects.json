@@ -62,5 +62,13 @@
     "description": "Implemented indoor rendering with Blinn–Phong shading, normal mapping, bloom effect, and real-time light shadows.",
     "tags": ["C++", "OpenGL"],
     "youtube": "z9hQzjh4AA8"
+  },
+  {
+    "title": "Yang-109II - HackMD",
+    "description": "Documentation and project notes for Yang-109II, hosted on HackMD.",
+    "tags": ["Docs", "HackMD"],
+    "links": [
+      { "label": "More", "href": "https://hackmd.io/@24K/Yang-109II" }
+    ]
   }
 ]
